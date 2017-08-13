@@ -12,6 +12,7 @@ sys.setdefaultencoding('utf8')
 
 def bubbleSort():
 	"""冒泡排序
+	从第一开始嵌套循环做比较, 按照规则互换位置
 	两个for循环嵌套 外层循环整个list 内层循环从外层+1开始循环做比 大的后移 可能有list为空的情况,list中元素相等的情况
 	"""
 	# range(0, 10)
